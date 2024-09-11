@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link-sosmed {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.biodata {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: palevioletred;
+}
